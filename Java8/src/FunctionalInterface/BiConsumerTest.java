@@ -11,8 +11,8 @@ public class BiConsumerTest {
 		m.put("ola","o");
 		m.put("Hello","H");
 		m.put("Chao","C");
-		m.forEach((k,v)->
-				System.out.println(k+" "+v));
+		//m.forEach((k,v)->
+				//System.out.println(k+" "+v));
 		
 		BiConsumer<String,String>bi=
 				(k,v)->System.out.println(k+"For"+v);

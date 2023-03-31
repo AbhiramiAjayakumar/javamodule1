@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script>
+    function countcase(word){
+    var upper=0;
+    var lower=0;
+    console.log("wordlength:" + word.length);
+
+    for(var i=0;i<word.length;i++){
+        if(word[i]==" ")
+        continue;
+        if(word[i].toUpperCase()==word[i])
+        lower=lower+1;
+        else
+        upper=upper+1;
+
+    }
+
+console.log("UpperCount:" +upper);
+    console.log("LowerCount:" +lower);
+
+}
+countcase("AMMU Ajay");
+    </script>
+</head>
+</html>
+
+
+

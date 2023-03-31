@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    /* background-image:url(); */
+    border-top: rgb(243, 241, 241);
+    border-style:double;
+    border-color:rgb(243, 245, 146); 
+    border-width:5px;
+    background-color:rgb(29, 29, 25);
+}
+div{
+     width:200;
+    height:100; 
+    border:8px;
+  padding:20px; 
+      margin:10px;
+      border-style: groove;
+}
+span{
+    color: red;
+}
+#second
+{
+    border-style: dashed;
+    border-color:rgb(20, 87, 231);
+}
+#first
+{
+    border-style: double;
+    border-color:rgb(230, 14, 7);
+}
+#third
+{
+    border-style:double;
+    border-color:rgb(14, 146, 223);
+}
+/* .p1{ */
+    background-color: rgb(219, 231, 47);
+/* } */
+.first-para
+{
+    font-size: x-large;
+    color:black;
+}
+#p-1
+{
+    font-style: italic;
+    font-size: large;
+    background-color: rgb(189, 183, 175);
+}
+#p-2{
+    font-style: oblique;
+    font-size: medium;
+    background-color: beige;
+}
+#p-3{
+    font-style: initial;
+    font-size: small;
+    background-color: rgb(188, 212, 240);
+}
+
+
+#first >h1
+{
+    font-family:'Permanent Marker', 'cursive';
+}
+#second >h1{
+    font-family: 'Luckiest Guy', 'cursive';
+}   
+#third >h1{
+font-family: 'Ultra', 'serif';
+}
+#first span{
+    color:blue
+
+}
+#second span{
+    color:skyblue
+}
+#third span{
+    color:purple
+}

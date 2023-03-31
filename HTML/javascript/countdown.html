@@ -1,0 +1,43 @@
+<html>
+<head><title> CountDown</title>
+<script>
+var n;
+// function CountDown(n){
+// for(var i=n;i>0;i--){
+//     document.write(i);
+//     document.write("<br>");
+// }
+// }
+// function RecursiveCountDown(n)
+// {  
+//     if(n>0)
+//     document.write(n);
+//     document.write("<br>");
+//     RecursiveCountDown(n-1);
+// }
+// RecursiveCountDown(10);
+
+
+// function CountUp(n){
+//      for(var i=0;i<0;i++){
+//     document.write(i);
+//      document.write("<br>");
+//  }
+//  }
+// CountUp(10);
+
+
+function RecursiveCountUp(n,m)
+{
+if(n>0 && n<=m)
+    document.write(n);
+     document.write("<br>");
+ RecursiveCountUp(n+1,m);
+
+}
+RecursiveCountUp(1,10);
+
+
+</script>
+</head>
+</html>
